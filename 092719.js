@@ -22,7 +22,7 @@ console.log(calcularPontos('e'));
 
 _______________________________________
 
-SWITCH 
+SWITCH :
 
 let resultado=prompt('Qual o resultado do jogo?')
 
