@@ -40,4 +40,4 @@ let res= 0 ;
 
 // 3. Dados dois números calcule o MDC deles.
 
-/* Resolver...... */
+/* Resolver......  testew*/
