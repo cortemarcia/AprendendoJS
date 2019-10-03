@@ -148,6 +148,8 @@
 
 //   console.log (fibonacci(10));
 
+
+
 //   __________________________________________________________________________________________________________________________
 
 // 11. O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
@@ -182,30 +184,46 @@
 // ______________________________________________________________________________________________________________
 // 12. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
 
-let arr = [78, 98, 45, 98, 34]
-let max = 0;
+// let arr = [78, 98, 45, 98, 34]
+// let max = 0;
 
-for ( var i = 0; i < arr.length; i++) {
-let min = 99999;
-for (i = 0; i < arr.length; i++) {
-    if(max < arr[i]){
-        max = arr[i]
+// for ( var i = 0; i < arr.length; i++) {
+// let min = 99999;
+// for (i = 0; i < arr.length; i++) {
+//     if(max < arr[i]){
+//         max = arr[i]
 
-} 
-for ( var y = 0; y < arr.length; y++) {
-    if(min > arr[y]){
-         min = arr[y]
-    }  
+// } 
+// for ( var y = 0; y < arr.length; y++) {
+//     if(min > arr[y]){
+//          min = arr[y]
+//     }  
+
+// }
+// console.log(max, min);
+// } console.log(max)
+
+// for (i = 0; i < arr.length; i++) {
+//     if(min > arr[i]){
+//         min = arr[i]
+//     }
+
+// } console.log(min)    
+
+// console.log((max + min) / 2)
+//  ____________________________________________________________________________________________
+
+// 14. Para calcular o fatorial de um número, você multiplica todos os números menores que ele até 1. Por exemplo, 10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1. Faça um algoritmo que dado um número calcule o fatorial do mesmo.
+
+function calcularFatorial(num) {
+
+    for (let i = num - 1; i >= 1; i--) {
+        num *= i;
+
+    }
+    return num;
+
 
 }
-console.log(max, min);
-} console.log(max)
 
-for (i = 0; i < arr.length; i++) {
-    if(min > arr[i]){
-        min = arr[i]
-    }
-
-} console.log(min)    
-
-console.log((max + min) / 2)
+console.log(calcularFatorial(5));
