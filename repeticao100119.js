@@ -133,3 +133,25 @@
 //     fib[i] = fib[i-2] + fib[i-1];
 // }
 // console.log(fib); 
+
+
+// ______________________________________________________________________________________________________________
+// 12. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
+
+let arr = [78, 98, 45, 98, 34]
+let max = 0;
+let min = 99999;
+
+for (i = 0; i < arr.length; i++) {
+    if(max < arr[i]){
+        max = arr[i]
+    }
+
+} console.log(max)
+
+for (i = 0; i < arr.length; i++) {
+    if(min > arr[i]){
+        min = arr[i]
+    }
+
+} console.log(min)    
