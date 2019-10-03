@@ -91,23 +91,77 @@
 //  _______________________________________________________________________________________________
 // 9. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 
-let num= 8;
-let divisores= 0;
+// let num = 8;
+// let divisores = 0;
 
-for(i=1; i<= num; i++){
-    if(num%i===0){
-        divisores++;
-    }
-}
+// for (i = 1; i <= num; i++) {
+//     if (num % i === 0) {
+//         divisores++;
+//     }
+// }
 
-if (divisores==2){
-    console.log(num+ "É um primo");
-}
+// if (divisores == 2) {
+//     console.log(num + "É um primo");
+// }
 
-else{
-    console.log('Não é primo');
-}
+// else {
+//     console.log('Não é primo');
+// }
 
 // // _____________________________________________________________________________________________________
 
 // 10. A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
+
+// function fibonacci(num) {
+//     let seq = [0,1];
+//     for (let i = 2; i <= num; i++) {
+//       seq.push(seq[i-1] + seq[i-2]);
+//     }
+//     return seq;
+//   }
+
+//   console.log (fibonacci(10));
+
+//   __________________________________________________________________________________________________________________________
+
+// 11. O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
+
+// Lojas Tabajara
+
+// Produto 1: R$ 2.20
+
+// Produto 2: R$ 5.80
+
+// Produto 3: R$ 0
+
+// Total: R$ 9.00
+
+// Dinheiro: R$ 20.00
+
+// Troco: R$ 11.00
+
+
+
+// RESOLVER!!!!1
+
+// ________________________________________________________________________________________________________________________________
+
+// 12. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
+
+let arr = [78, 98, 45, 98, 34]
+let max = 0;
+let min= arr[0];
+
+for ( var i = 0; i < arr.length; i++) {
+    if(max < arr[i]){
+        max = arr[i]
+    }
+
+} 
+for ( var y = 0; y < arr.length; y++) {
+    if(min > arr[y]){
+         min = arr[y]
+    }  
+
+}
+console.log(max, min);
