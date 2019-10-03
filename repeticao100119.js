@@ -35,12 +35,18 @@
 //     }
 // }
 
+// console.log(res);
+
 // //     ____________________________________________________________________________________________________
 
 
 // // 3. Dados dois números calcule o MDC deles.
 
-// /* Resolver......  testew*/
+// // /let x= 90;
+// let y= 54;
+// let divisor= 2;
+// le
+
 
 // // 5. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que dado um número, print (console.log) a tabuada do mesmo de 1 a 10.
 
@@ -51,6 +57,16 @@
 // //     console.log(num * num1 )
 // //     num1++
 // // }
+
+// &&
+
+// let arr= [0, 1,2,3,4,5,6,7,8,9,10];
+// let x= Number(prompt('Qual o número?')); 
+
+//   for( let i= 0; i< arr.length;i++){  
+
+//    console.log(`o resultado é: ${x}x ${ arr[i]}= ${ x * arr[i]}`);
+// }
 
 // // ________________________________________________________________________________________________
 // // 6. Faça um programa que leia 5 números e informe o maior número.
@@ -96,6 +112,11 @@
 
 // for (i = 1; i <= num; i++) {
 //     if (num % i === 0) {
+// let num= 8;
+// let divisores= 0;
+
+// for(i=1; i<= num; i++){
+//     if(num%i===0){
 //         divisores++;
 //     }
 // }
@@ -105,6 +126,11 @@
 // }
 
 // else {
+// if (divisores==2){
+//     console.log(num+ "É um primo");
+// }
+
+// else{
 //     console.log('Não é primo');
 // }
 
@@ -146,16 +172,24 @@
 
 // ________________________________________________________________________________________________________________________________
 
+// var fib = [0, 1];
+// for(var i=fib.length; i<10; i++) {
+//     fib[i] = fib[i-2] + fib[i-1];
+// }
+// console.log(fib); 
+
+
+// ______________________________________________________________________________________________________________
 // 12. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia as um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperaturas informadas, bem como a média das temperaturas.
 
 let arr = [78, 98, 45, 98, 34]
 let max = 0;
-let min= arr[0];
 
 for ( var i = 0; i < arr.length; i++) {
+let min = 99999;
+for (i = 0; i < arr.length; i++) {
     if(max < arr[i]){
         max = arr[i]
-    }
 
 } 
 for ( var y = 0; y < arr.length; y++) {
@@ -165,3 +199,13 @@ for ( var y = 0; y < arr.length; y++) {
 
 }
 console.log(max, min);
+} console.log(max)
+
+for (i = 0; i < arr.length; i++) {
+    if(min > arr[i]){
+        min = arr[i]
+    }
+
+} console.log(min)    
+
+console.log((max + min) / 2)
