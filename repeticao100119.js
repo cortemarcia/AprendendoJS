@@ -35,12 +35,18 @@
 //     }
 // }
 
+// console.log(res);
+
 // //     ____________________________________________________________________________________________________
 
 
 // // 3. Dados dois números calcule o MDC deles.
 
-// /* Resolver......  testew*/
+// // /let x= 90;
+// let y= 54;
+// let divisor= 2;
+// le
+
 
 // // 5. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que dado um número, print (console.log) a tabuada do mesmo de 1 a 10.
 
@@ -51,6 +57,16 @@
 // //     console.log(num * num1 )
 // //     num1++
 // // }
+
+// &&
+
+// let arr= [0, 1,2,3,4,5,6,7,8,9,10];
+// let x= Number(prompt('Qual o número?')); 
+
+//   for( let i= 0; i< arr.length;i++){  
+
+//    console.log(`o resultado é: ${x}x ${ arr[i]}= ${ x * arr[i]}`);
+// }
 
 // // ________________________________________________________________________________________________
 // // 6. Faça um programa que leia 5 números e informe o maior número.
@@ -91,23 +107,24 @@
 //  _______________________________________________________________________________________________
 // 9. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 
-let num= 8;
-let divisores= 0;
+// let num= 8;
+// let divisores= 0;
 
-for(i=1; i<= num; i++){
-    if(num%i===0){
-        divisores++;
-    }
-}
+// for(i=1; i<= num; i++){
+//     if(num%i===0){
+//         divisores++;
+//     }
+// }
 
-if (divisores==2){
-    console.log(num+ "É um primo");
-}
+// if (divisores==2){
+//     console.log(num+ "É um primo");
+// }
 
-else{
-    console.log('Não é primo');
-}
+// else{
+//     console.log('Não é primo');
+// }
 
 // // _____________________________________________________________________________________________________
 
 // 10. A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
+
