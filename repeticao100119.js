@@ -128,3 +128,8 @@
 
 // 10. A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
 
+// var fib = [0, 1];
+// for(var i=fib.length; i<10; i++) {
+//     fib[i] = fib[i-2] + fib[i-1];
+// }
+// console.log(fib); 
