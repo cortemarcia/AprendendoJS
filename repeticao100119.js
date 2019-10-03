@@ -155,3 +155,5 @@ for (i = 0; i < arr.length; i++) {
     }
 
 } console.log(min)    
+
+console.log((max + min) / 2)
