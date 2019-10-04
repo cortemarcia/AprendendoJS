@@ -232,16 +232,71 @@
 
 // 15. Faça uma função que receba uma quantidade x e retorne um array com x números randomicos.
 
-function randomico(quantidade){  
-    
-    return Math.floor(Math.random() * quantidade)
-  
-}
+// function randomico(quantidade){  
 
-let arr=[];
-for( let i=0; i<5; i++){
-  arr.push(randomico(4));
-}
-console.log(arr);
+//     return Math.floor(Math.random() * quantidade)
 
-_____________________________________________________________________________________________________
+// }
+
+// let arr=[];
+// for( let i=0; i<5; i++){
+//   arr.push(randomico(4));
+// }
+// console.log(arr);
+
+// _____________________________________________________________________________________________________
+
+// 18. Escreva um algoritmo que printe o seguinte padrão no console:
+
+// 1
+
+// 22
+
+// 333
+
+// 4444
+
+// 55555
+
+// Sempre que algum exercicio solicitar impressao de linha e coluna é preciso usar 2 for
+// for (let i = 1; i < 5; i++) {
+//   let linha = '';
+
+//   for (let j = 1; j <= i; j++) {
+//     linha += i;
+
+//   }
+//   console.log(linha);
+// }
+
+// __________________________________________________________________________________________________________
+
+// 17. Escreva um algoritmo que printe o seguinte padrão no console:
+
+// *******
+
+// ******
+
+// *****
+
+// ****
+
+// ***
+
+// **
+
+// *
+
+// for (let i = 6; i >= 1; i--) {
+//   let linha = '';
+
+//   for (let j = 1; j <= i; j++) {
+//     linha += '*';
+
+//   }
+//   console.log(linha);
+// }
+// ___________________________________________________________________________________________________
+
+
+
