@@ -215,15 +215,33 @@
 
 // 14. Para calcular o fatorial de um número, você multiplica todos os números menores que ele até 1. Por exemplo, 10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1. Faça um algoritmo que dado um número calcule o fatorial do mesmo.
 
-function calcularFatorial(num) {
+// function calcularFatorial(num) {
 
-    for (let i = num - 1; i >= 1; i--) {
-        num *= i;
+//     for (let i = num - 1; i >= 1; i--) {
+//         num *= i;
 
-    }
-    return num;
+//     }
+//     return num;
 
 
+// }
+
+// console.log(calcularFatorial(5));
+
+// ________________________________________________________________________________________
+
+// 15. Faça uma função que receba uma quantidade x e retorne um array com x números randomicos.
+
+function randomico(quantidade){  
+    
+    return Math.floor(Math.random() * quantidade)
+  
 }
 
-console.log(calcularFatorial(5));
+let arr=[];
+for( let i=0; i<5; i++){
+  arr.push(randomico(4));
+}
+console.log(arr);
+
+_____________________________________________________________________________________________________
