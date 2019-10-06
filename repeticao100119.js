@@ -298,35 +298,60 @@
 // }
 // ___________________________________________________________________________________________________
 
-Momentos de Tensão
-19. Pangrama é uma frase que possui todas as letras do alfabeto. Faça um algoritmo que verifique se uma frase é um pangrama ou não.
+// Momentos de Tensão
+// 19. Pangrama é uma frase que possui todas as letras do alfabeto. Faça um algoritmo que verifique se uma frase é um pangrama ou não.
 
 
-function isPangram(str) {
-  let alfabeto = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x,z]
-  str= sts.toLowcase();
+// function isPangram(str) {
+//   let alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'z']
+//   str = str.toLowerCase();
 
-    for (let i=o; i< alfabeto.length;i++){
-      if(frase.indexOf(pangram[i]) < 0){
-        return false;  }
-    } else{
-      return true;
-    }
-  console.log(function isPangram('abacaxi'));
+//   for (let i = 0; i < alfabeto.length; i++) {
+//     if (str.indexOf(alfabeto[i]) < 0) {
+//       console.log('Não é um pangrama')
+//       return false;
+//     } else {
+//       console.log ('É um pangrama')
+//       return true;
+//     }
+//   }
+// }
 
-20. Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
+// console.log(isPangram('989'));
 
-21. Escreva um loop em Javascript que printa o seguinte padrão no console: 1******
+// 20. Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
 
-12*****
 
-123****
 
-1234***
 
-12345**
+// 21. Escreva um loop em Javascript que printa o seguinte padrão no console: 1******
 
-123456*
+// 12*****
 
-1234567
+// 123****
+
+// 1234***
+
+// 12345**
+
+// 123456*
+
+// 1234567
+
+// var linha = '';
+
+// for(i=1; i<=7; i++){
+//   //console.log (i);
+//   linha = '';
+//   for (j=1; j<=7; j++){
+    
+//     if(j <= i) {
+//       linha = linha + j;
+//     } else {
+//       linha = linha + '*';
+//     }
+//   }
+
+//   console.log (linha);
+// }
 
